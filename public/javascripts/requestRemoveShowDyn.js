@@ -63,7 +63,9 @@ app.get('/:pollID', function (req, res) {
 	request(options, callback);
 });
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 80!');
+var port = process.env.PORT || 3000;
+
+app.listen(port, function () {
+  console.log('Example app listening on port 3000!');
 });
 
