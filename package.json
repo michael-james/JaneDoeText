@@ -1,0 +1,21 @@
+{
+  "name": "JaneDoeText",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "request": "^2.81.0",
+    "stopword": "^0.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node requestRemoveShowDyn.js"
+  },
+  "author": "Michael James",
+  "license": "ISC",
+  "engines": {
+    "node": "7.5.0"
+  }
+}
